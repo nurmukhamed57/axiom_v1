@@ -1,0 +1,48 @@
+{"full_name": "Nat.add_comm", "statement": "theorem add_comm (a b : Nat) : a + b = b + a", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.add_assoc", "statement": "theorem add_assoc (a b c : Nat) : (a + b) + c = a + (b + c)", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.mul_comm", "statement": "theorem mul_comm (a b : Nat) : a * b = b * a", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.mul_assoc", "statement": "theorem mul_assoc (a b c : Nat) : (a * b) * c = a * (b * c)", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.add_zero", "statement": "theorem add_zero (n : Nat) : n + 0 = n", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.zero_add", "statement": "theorem zero_add (n : Nat) : 0 + n = n", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.mul_zero", "statement": "theorem mul_zero (n : Nat) : n * 0 = 0", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.zero_mul", "statement": "theorem zero_mul (n : Nat) : 0 * n = 0", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.mul_one", "statement": "theorem mul_one (n : Nat) : n * 1 = n", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.one_mul", "statement": "theorem one_mul (n : Nat) : 1 * n = n", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.add_left_cancel", "statement": "theorem add_left_cancel {a b c : Nat} : a + b = a + c → b = c", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.add_right_cancel", "statement": "theorem add_right_cancel {a b c : Nat} : a + b = c + b → a = c", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.succ_add", "statement": "theorem succ_add (n m : Nat) : succ n + m = succ (n + m)", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.add_succ", "statement": "theorem add_succ (n m : Nat) : n + succ m = succ (n + m)", "module": "Mathlib.Data.Nat.Basic"}
+{"full_name": "Nat.dvd_refl", "statement": "theorem dvd_refl (a : Nat) : a ∣ a", "module": "Mathlib.Data.Nat.Order"}
+{"full_name": "Nat.dvd_trans", "statement": "theorem dvd_trans {a b c : Nat} : a ∣ b → b ∣ c → a ∣ c", "module": "Mathlib.Data.Nat.Order"}
+{"full_name": "Nat.even", "statement": "def even (n : Nat) : Prop := ∃ k, n = 2 * k", "module": "Mathlib.Data.Nat.Parity"}
+{"full_name": "Nat.odd", "statement": "def odd (n : Nat) : Prop := ∃ k, n = 2 * k + 1", "module": "Mathlib.Data.Nat.Parity"}
+{"full_name": "Int.add_comm", "statement": "theorem add_comm (a b : Int) : a + b = b + a", "module": "Mathlib.Data.Int.Basic"}
+{"full_name": "Int.add_assoc", "statement": "theorem add_assoc (a b c : Int) : (a + b) + c = a + (b + c)", "module": "Mathlib.Data.Int.Basic"}
+{"full_name": "Int.mul_comm", "statement": "theorem mul_comm (a b : Int) : a * b = b * a", "module": "Mathlib.Data.Int.Basic"}
+{"full_name": "Int.mul_assoc", "statement": "theorem mul_assoc (a b c : Int) : (a * b) * c = a * (b * c)", "module": "Mathlib.Data.Int.Basic"}
+{"full_name": "Real.add_comm", "statement": "theorem add_comm (a b : Real) : a + b = b + a", "module": "Mathlib.Data.Real.Basic"}
+{"full_name": "Real.mul_comm", "statement": "theorem mul_comm (a b : Real) : a * b = b * a", "module": "Mathlib.Data.Real.Basic"}
+{"full_name": "Real.sq_nonneg", "statement": "theorem sq_nonneg (x : Real) : 0 ≤ x^2", "module": "Mathlib.Data.Real.Basic"}
+{"full_name": "List.append_nil", "statement": "theorem append_nil (l : List α) : l ++ [] = l", "module": "Mathlib.Data.List.Basic"}
+{"full_name": "List.nil_append", "statement": "theorem nil_append (l : List α) : [] ++ l = l", "module": "Mathlib.Data.List.Basic"}
+{"full_name": "List.length_append", "statement": "theorem length_append (l₁ l₂ : List α) : length (l₁ ++ l₂) = length l₁ + length l₂", "module": "Mathlib.Data.List.Basic"}
+{"full_name": "Ring.add_zero", "statement": "theorem add_zero {R : Type*} [Ring R] (a : R) : a + 0 = a", "module": "Mathlib.Algebra.Ring.Defs"}
+{"full_name": "Ring.zero_add", "statement": "theorem zero_add {R : Type*} [Ring R] (a : R) : 0 + a = a", "module": "Mathlib.Algebra.Ring.Defs"}
+{"full_name": "Ring.mul_one", "statement": "theorem mul_one {R : Type*} [Ring R] (a : R) : a * 1 = a", "module": "Mathlib.Algebra.Ring.Defs"}
+{"full_name": "Ring.one_mul", "statement": "theorem one_mul {R : Type*} [Ring R] (a : R) : 1 * a = a", "module": "Mathlib.Algebra.Ring.Defs"}
+{"full_name": "Group.mul_left_inv", "statement": "theorem mul_left_inv {G : Type*} [Group G] (a : G) : a⁻¹ * a = 1", "module": "Mathlib.Algebra.Group.Defs"}
+{"full_name": "Group.mul_right_inv", "statement": "theorem mul_right_inv {G : Type*} [Group G] (a : G) : a * a⁻¹ = 1", "module": "Mathlib.Algebra.Group.Defs"}
+{"full_name": "Field.div_self", "statement": "theorem div_self {F : Type*} [Field F] {a : F} (h : a ≠ 0) : a / a = 1", "module": "Mathlib.Algebra.Field.Defs"}
+{"full_name": "simp", "statement": "tactic simp: simplifies the goal using lemmas and hypotheses tagged with [simp]", "module": "Lean.Elab.Tactic"}
+{"full_name": "rw", "statement": "tactic rw: rewrites the goal using the given equality", "module": "Lean.Elab.Tactic"}
+{"full_name": "intro", "statement": "tactic intro: introduces a hypothesis or variable", "module": "Lean.Elab.Tactic"}
+{"full_name": "apply", "statement": "tactic apply: applies a theorem to the goal", "module": "Lean.Elab.Tactic"}
+{"full_name": "exact", "statement": "tactic exact: provides an exact proof term for the goal", "module": "Lean.Elab.Tactic"}
+{"full_name": "induction", "statement": "tactic induction: performs induction on a variable", "module": "Lean.Elab.Tactic"}
+{"full_name": "cases", "statement": "tactic cases: performs case analysis on a variable", "module": "Lean.Elab.Tactic"}
+{"full_name": "constructor", "statement": "tactic constructor: applies the constructor of an inductive type", "module": "Lean.Elab.Tactic"}
+{"full_name": "ring", "statement": "tactic ring: solves goals in commutative (semi)rings", "module": "Mathlib.Tactic.Ring"}
+{"full_name": "field_simp", "statement": "tactic field_simp: simplifies expressions in fields", "module": "Mathlib.Tactic.FieldSimp"}
+{"full_name": "norm_num", "statement": "tactic norm_num: normalizes numerical expressions", "module": "Mathlib.Tactic.NormNum"}
+{"full_name": "linarith", "statement": "tactic linarith: solves linear arithmetic goals", "module": "Mathlib.Tactic.Linarith"}
+{"full_name": "omega", "statement": "tactic omega: solves goals in Presburger arithmetic", "module": "Mathlib.Tactic.Omega"}
